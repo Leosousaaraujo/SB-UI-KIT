@@ -1,0 +1,20 @@
+*{ margin: 0; padding: 0; border: none; outline: none; font-weight: 300; box-sizing: border-box; font-family: 'Poppins', sans-serif; font-family: 'Roboto', sans-serif; text-decoration:none; list-style: none; }
+.conteiner{margin:0px 10px; max-width: 1100px;}
+.esconder{visibility: hidden;}
+/*HEADER*/
+body{background-color:white;}
+header{width: 100%; padding: 3%, 4%; margin-top: 40px; }
+.logo{display: block; float: left; font-family: 'poppins'; font-weight: 600; font-size: 20px; color: #0061F2;}
+
+/*BOTÃO HAMBURGER MENU*/
+.nav-menu{border-bottom:1px solid rgb(228, 228, 228); height: 60px; background-color: white;}
+.btn-menu{display: block; background-image: url(img/menu.svg); background-repeat: no-repeat; text-indent: -9999px; background-position: 100% center; }
+.btn-menu-close{margin-top: -20px;}
+/*MENU*/
+.menu{background-color:white; border-bottom:1px solid rgb(228, 228, 228); margin: 0px; margin-top:30px; padding-bottom:40px; transform: translatey(-360px); transition: transform 200ms linear;}
+.menu-item{ padding: 10px 0px;}
+.menu-item-action{display: block; color: #808080;  background-image: url(img/next.png); background-repeat: no-repeat; background-position: 100%;}
+.menu-item-btn{padding-top:40px;}
+.menu-item-btn-action{font-weight: 400; color:white; font-size:15px; padding:13px 38px 13px 18px; border-radius:10px; background-color:#0061F2; background-image: url(img/arrow.png); background-repeat:no-repeat; background-position-x:85px; background-position-y: 48%;}
+
+.menu-open{ transform: translatey(0);}

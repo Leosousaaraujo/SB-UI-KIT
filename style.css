@@ -1,6 +1,20 @@
 *{ margin: 0; padding: 0; border: none; outline: none; font-weight: 300; box-sizing: border-box; font-family: 'Poppins', sans-serif; font-family: 'Roboto', sans-serif; text-decoration:none; list-style: none; }
-.conteiner{margin:0px 10px; max-width: 1100px;}
+.conteiner{margin:0px 5%;}
+.conteudo{margin: 0px 8%; text-align: center;}
+.conteudo-top{margin: 0px 8%;}
 .esconder{visibility: hidden;}
+.row{display: flex; flex-wrap: wrap;}
+
+/*TEXTOS*/
+.titulo-principal{font-size: 40px; color: #363D47;}
+.titulo-secundario{font-size: 25px; color: #363D47;}
+.titulo-categoria{color: #0061F2; font-size: 13px; padding: 5px 10px; border-radius: 20px; margin-bottom:10px; display: inline-block; background-color: #DAE7FB;}
+.paragrafo{font-size: 17px; color: #727881;}
+
+/*BOTÕES*/
+.btn-principal{display: inline-block; font-weight: 400; color:white; font-size:15px; padding:16px 45px 16px 25px; border-radius:10px; background-color:#0061F2; background-image: url(img/arrow.png); background-repeat:no-repeat; background-position-x: 110px; background-position-y: 50%; margin: 10px 0px;}
+.btn-secundario{display: inline-block; font-weight: 400; color: #0061F2; font-size:15px; padding:16px 25px 16px 25px; border-radius:10px; background-color: #DAE7FB;}
+
 /*HEADER*/
 body{background-color:white;}
 header{width: 100%; padding: 3%, 4%; margin-top: 40px; }
@@ -18,3 +32,22 @@ header{width: 100%; padding: 3%, 4%; margin-top: 40px; }
 .menu-item-btn-action{font-weight: 400; color:white; font-size:15px; padding:13px 38px 13px 18px; border-radius:10px; background-color:#0061F2; background-image: url(img/arrow.png); background-repeat:no-repeat; background-position-x:85px; background-position-y: 48%;}
 
 .menu-open{ transform: translatey(0);}
+
+/*BANNER TOPO*/
+.banner{margin-bottom: 50px;}
+.banner-texto{margin: 30px 0px;}
+.banner-texto-p{margin-top: 20px;}
+
+/*BOTÕES BANNER*/
+.banner-botoes{margin: 20px 0px;}
+
+/*LANDING PAGES DEMO*/
+.demos{background-color: #F2F6FC; padding: 80px 0px;}
+.demos-titulo{ margin-bottom: 100px;}
+.demos-titulo-p{margin-top: 10px;}
+
+.demos-box{}
+.demos-box-itens{margin-bottom: 40px;}
+.demos-box-titulo{font-size: 17px; margin-bottom: 15px;}
+.demos-box-link{}
+.demos-box-img{width: 90%; border-radius: 15px; box-shadow: 1px 5px 15px rgba(37, 46, 59, 0.5); }

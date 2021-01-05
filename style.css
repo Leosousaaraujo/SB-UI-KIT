@@ -1,6 +1,7 @@
 *{ margin: 0; padding: 0; border: none; outline: none; font-weight: 300; box-sizing: border-box; font-family: 'Poppins', sans-serif; font-family: 'Roboto', sans-serif; text-decoration:none; list-style: none; }
+
 .conteiner{margin:0px 5%;}
-.conteudo{margin: 0px 8%; text-align: center;}
+.conteudo{margin: 0px 10%; text-align: center;}
 .conteudo-top{margin: 0px 8%;}
 .esconder{visibility: hidden;}
 .row{display: flex; flex-wrap: wrap;}
@@ -39,7 +40,7 @@ header{width: 100%; padding: 3%, 4%; margin-top: 40px; }
 .banner-texto-p{margin-top: 20px;}
 
 /*BOTÕES BANNER*/
-.banner-botoes{margin: 20px 0px;}
+.banner-botoes{margin: 20px 0px; width: 150px;}
 
 /*LANDING PAGES DEMO*/
 .demos{background-color: #F2F6FC; padding: 80px 0px;}
@@ -50,4 +51,16 @@ header{width: 100%; padding: 3%, 4%; margin-top: 40px; }
 .demos-box-itens{margin-bottom: 40px;}
 .demos-box-titulo{font-size: 17px; margin-bottom: 15px;}
 .demos-box-link{}
-.demos-box-img{width: 90%; border-radius: 15px; box-shadow: 1px 5px 15px rgba(37, 46, 59, 0.5); }
+.demos-box-img{width: 90%; border-radius: 15px; box-shadow: 1px 5px 15px rgba(37, 46, 59, 0.8); }
+
+/*INNER PAGES*/
+.pages{margin-bottom:150px;}
+.pages-titulo{ padding: 80px 0 50px 0;}
+.pages-titulo-p{margin-top:10px;}
+
+.pages-categorias{}
+.titulo-page-categorias{text-align: left; font-weight: 400; font-size:16px; color:#333; margin-bottom: 20px; }
+.categorias{margin-top: 55px;}
+.categorias-lista{border: 0.8px solid #e6e6e6; border-radius:10px; box-shadow: 1px 5px 30px rgba(37, 46, 59, 0.2);}
+.categorias-item{border-bottom: 0.8px solid #e6e6e6;}
+.categorias-action{text-align: left; font-size: 15px; color: #4d4d4d; padding-top:15px; padding-left:20px; display: block; height: 50px; margin: center center; background-image: url(img/arrow-right.png); background-repeat: no-repeat; background-position: 94% 50%;}

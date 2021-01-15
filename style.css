@@ -15,14 +15,18 @@
 .paragrafo-mini{font-size: 15px; color: #ACAEB8;}
 
 /*BOTÕES*/
-.btn-principal{display: inline-block; font-weight: 400; color:white; font-size:15px; padding:16px 45px 16px 25px; border-radius:10px; background-color:#0061F2; background-image: url(img/arrow.png); background-repeat:no-repeat; background-position-x: 110px; background-position-y: 50%; margin: 10px 0px;}
-.btn-principal2{display: inline-block; font-weight: 400; color:white; font-size:15px; padding:16px 20px 16px 20px; border-radius:10px; background-color:#0061F2;}
+.btn-principal{display: inline-block; font-weight: 400; color:white; font-size:15px; padding:16px 45px 16px 25px; border-radius:10px; background-color:#0061F2; background-image: url(img/arrow.png); background-repeat:no-repeat; background-position-x: 110px; background-position-y: 50%; margin: 10px 0px; transition-delay: 0.3s; transition-property: background-color; transition-timing-function: linear; transition-duration: 0.3s; box-shadow: 1px 5px 19px rgba(37, 46, 59, 0.3) transition-property: box-shadow; transition-timing-function: linear; transition-duration: 0.3s;}
+    .btn-principal:hover{background-color: #0b4aa8; transition-delay: 0.3s; transition-property: background-color; transition-timing-function: linear; transition-duration: 0.3s; box-shadow: 1px 5px 19px rgba(37, 46, 59, 0.3) transition-property: box-shadow; transition-timing-function: linear; transition-duration: 0.3s;}
+.btn-principal2{display: inline-block; font-weight: 400; color:white; font-size:15px; padding:16px 20px 16px 20px; border-radius:10px; background-color:#0061F2; transition-delay: 0.3s; transition-property: background-color; transition-timing-function: linear; transition-duration: 0.2s; box-shadow: 1px 5px 19px rgba(37, 46, 59, 0.3) transition-property: box-shadow; transition-timing-function: linear; transition-duration: 0.3s;}
+    .btn-principal2:hover{background-color: #0b4aa8; transition-delay: 0.3s; transition-property: background-color; transition-timing-function: linear; transition-duration: 0.3s; box-shadow: 1px 5px 19px rgba(37, 46, 59, 0.3) transition-property: box-shadow; transition-timing-function: linear; transition-duration: 0.3s;}
 .btn-secundario{display: inline-block; font-weight: 400; color: #0061F2; font-size:15px; padding:16px 25px 16px 25px; border-radius:10px; background-color: #DAE7FB;}
 
 /*HEADER*/
 body{background-color:white;}
 header{width: 100%; padding: 3%, 4%; margin-top: 40px; }
-.logo{display: block; float: left; font-family: 'poppins'; font-weight: 600; font-size: 20px; color: #0061F2;}
+.logo{ font-family: 'poppins'; font-weight: 600; font-size: 20px;}
+.logo-topo{display: block; float: left; color: #0061F2;}
+.logo-rodape{color:#ACAEB8;}
 
 /*BOTÃO HAMBURGER MENU*/
 .nav-menu{border-bottom:1px solid rgb(228, 228, 228); height: 60px; background-color: white;}
@@ -84,15 +88,23 @@ header{width: 100%; padding: 3%, 4%; margin-top: 40px; }
 
 /*RODAPE*/
 footer{background-color:#F2F6FC;}
-.rodape{}
+.rodape{padding-top: 80px; padding-bottom: 20px;}
 
 .rodape-lista{}
 .rodape-item{}
-.logo-cinza{font-family: 'poppins'; font-weight: 600; font-size: 20px; color:#ACAEB8;}
 
-.redes-sociais-lista{}
+.redes-sociais-lista{display: grid; grid-template-columns: 6% 6% 6% 6% 6% 6% 6%; margin: 25px 0 40px 0;}
 .redes-siciais-item{}
-.redes-sociais-img{}
+.redes-sociais-img{width: 18px; opacity: 0.3;}
+    .redes-sociais-img:hover{opacity: 0.7;}
 
+.titulo-rodape{color: #ACAEB8; text-transform: uppercase; font-weight: 500; font-size: 13px; letter-spacing: 2px; margin: 50px 0 15px 0;}
+.rodape-lista-pages{}
+.rodape-item-pages{margin: 8px 0;}
+.rodape-pages-action{color: #ACAEB8; font-family: poppins; font-size: 14px; font-weight: 300;}
+    .rodape-pages-action:hover{text-decoration: underline;}
 
-
+.termos-legais{text-align: left; font-size: 12px;}
+hr{border-top: 1px solid rgba(0, 0, 0, 0.1); margin: 20px 0;}
+.paragrafo-mini a{color: #ACAEB8;}
+    .paragrafo-mini a:hover{text-decoration: underline;}
